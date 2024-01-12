@@ -5,7 +5,7 @@ public final class Main {
     private final String PREFIXO = RGBANSI(200, 150, 100) + "[IMC] ";
 
     private Main() {
-        Scanner sc = new Scanner(System.in);
+        final Scanner sc = new Scanner(System.in);
 
         printar("Olá, insira o seu peso em quilogramas: ");
         final double peso = sc.nextDouble();
